@@ -1,6 +1,6 @@
 {
   "name": "test-materialui-modal-form-bug",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Test component",
   "main": "modal-form.jsx",
   "scripts": {
