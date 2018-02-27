@@ -23,16 +23,16 @@ class Form extends React.Component {
       <div className={classes.modalCtr}>
         <fieldset>
           <FormControl>
-            <InputLabel>Year</InputLabel>
+            <InputLabel>Choose</InputLabel>
             <Select
               type={"text"}
               value={value}
               onChange={onChange}
             >
-              <MenuItem value={"a"}>a</MenuItem>
-              <MenuItem value={"b"}>b</MenuItem>
-              <MenuItem value={"c"}>c</MenuItem>
-              <MenuItem value={"d"}>d</MenuItem>
+              <MenuItem value={"a"}>A</MenuItem>
+              <MenuItem value={"b"}>B</MenuItem>
+              <MenuItem value={"c"}>C</MenuItem>
+              <MenuItem value={"d"}>D</MenuItem>
             </Select>
           </FormControl>
         </fieldset>
