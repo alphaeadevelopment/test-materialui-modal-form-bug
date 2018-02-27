@@ -4,11 +4,6 @@ const path = require('path');
 const webpack = require('webpack');
 const babelExclude = /node_modules/;
 
-const alias = {}
-if (process.env.NODE_ENV !== 'production' && process.env.NO_STUBS === undefined) {
-};
-console.log(alias);
-
 var config = {
   entry: path.join(__dirname, 'modal-form.jsx'),
   output: {
@@ -27,7 +22,6 @@ var config = {
   },
   resolve: {
     extensions: ['.js', '.jsx'],
-    alias
   },
   externals: {
     'react': 'react',
