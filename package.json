@@ -1,0 +1,25 @@
+{
+  "name": "test-materialui-modal-form-bug",
+  "version": "1.0.7",
+  "description": "Test component",
+  "main": "modal-form.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "Graham King <gking2224@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "babel-register": "^6.26.0",
+    "material-ui": "^1.0.0-beta.33",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.3",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "webpack": "^3.11.0"
+  }
+}
